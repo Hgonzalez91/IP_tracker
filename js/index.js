@@ -11,5 +11,8 @@ const geoIP = async (ip) => {
 }
 
 btnSearch.addEventListener('click', ()=>{
-    geoIP(getID.value);
-})
+    geoIP(getID.value)
+    .then((respIP) =>{
+
+    })
+});
